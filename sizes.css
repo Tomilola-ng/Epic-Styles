@@ -1,0 +1,667 @@
+
+/* Width */
+
+.w-100 { width: 100% !important}
+.w-95 { width: 95% !important}
+.w-90 { width: 90% !important}
+.w-85 { width: 85% !important}
+.w-80 { width: 80% !important}
+.w-75 { width: 75% !important}
+.w-70 { width: 70% !important}
+.w-65 { width: 65% !important}
+.w-60 { width: 60% !important}
+.w-55 { width: 55% !important}
+.w-50 { width: 50% !important}
+.w-45 { width: 45% !important}
+.w-40 { width: 40% !important}
+.w-35 { width: 35% !important}
+.w-30 { width: 30% !important}
+.w-25 { width: 25% !important}
+.w-20 { width: 20% !important}
+.w-15 { width: 15% !important}
+.w-10 { width: 10% !important}
+.w-5 { width: 5% !important}
+
+
+.w-10px { width: 10px !important}
+.w-20px { width: 20px !important}
+.w-30px { width: 30px !important}
+.w-40px { width: 40px !important}
+.w-50px { width: 50px !important}
+.w-100px { width: 100px !important}
+.w-150px { width: 150px !important}
+.w-200px { width: 200px !important}
+.w-250px { width: 250px !important}
+.w-300px { width: 300px !important}
+.w-350px { width: 350px !important}
+.w-400px { width: 400px !important} 
+.w-450px { width: 450px !important}
+.w-500px { width: 500px !important}
+.w-550px { width: 550px !important}
+.w-600px { width: 600px !important}
+.w-650px { width: 650px !important}
+.w-700px { width: 700px !important}
+.w-750px { width: 750px !important}
+.w-800px { width: 800px !important}
+.w-850px { width: 850px !important}
+.w-900px { width: 900px !important} 
+.w-950px { width: 950px !important}
+.w-1000px { width: 1000px !important}
+.w-1100px { width: 1100px !important}
+.w-1200px { width: 1200px !important}
+.w-1300px { width: 1300px !important}
+.w-1400px { width: 1400px !important}
+.w-1500px { width: 1500px !important}
+.w-1600px { width: 1600px !important}
+.w-1700px { width: 1700px !important}
+.w-1800px { width: 1800px !important}
+.w-1900px { width: 1900px !important}
+.w-2000px { width: 2000px !important}
+
+.w-100vw { width: 100vw !important}
+.w-95vw { width: 95vw !important}
+.w-90vw { width: 90vw !important}
+.w-85vw { width: 85vw !important}
+.w-80vw { width: 80vw !important}
+.w-75vw { width: 75vw !important}
+.w-70vw { width: 70vw !important}
+.w-65vw { width: 65vw !important}
+.w-60vw { width: 60vw !important}
+.w-55vw { width: 55vw !important}
+.w-50vw { width: 50vw !important}
+.w-45vw { width: 45vw !important}
+.w-40vw { width: 40vw !important}
+.w-35vw { width: 35vw !important}
+.w-30vw { width: 30vw !important}
+.w-25vw { width: 25vw !important}
+.w-20vw { width: 20vw !important}
+.w-15vw { width: 15vw !important}
+.w-10vw { width: 10vw !important}
+.w-5vw { width: 5vw !important}
+
+.mxw-50 { max-width: 50px !important}
+.mxw-100 { max-width: 100px !important}
+.mxw-150 { max-width: 150px !important}
+.mxw-200 { max-width: 200px !important}
+.mxw-250 { max-width: 250px !important}
+.mxw-300 { max-width: 300px !important}
+.mxw-350 { max-width: 350px !important}
+.mxw-400 { max-width: 400px !important} 
+.mxw-450 { max-width: 450px !important}
+.mxw-500 { max-width: 500px !important}
+.mxw-550 { max-width: 550px !important}
+.mxw-600 { max-width: 600px !important}
+.mxw-650 { max-width: 650px !important}
+.mxw-700 { max-width: 700px !important}
+.mxw-750 { max-width: 750px !important}
+.mxw-800 { max-width: 800px !important}
+.mxw-850 { max-width: 850px !important}
+.mxw-900 { max-width: 900px !important} 
+.mxw-950 { max-width: 950px !important}
+.mxw-1000 { max-width: 1000px !important}
+.mxw-1100 { max-width: 1100px !important}
+.mxw-1200 { max-width: 1200px !important}
+.mxw-1300 { max-width: 1300px !important}
+.mxw-1400 { max-width: 1400px !important}
+.mxw-1500 { max-width: 1500px !important}
+.mxw-1600 { max-width: 1600px !important}
+.mxw-1700 { max-width: 1700px !important}
+.mxw-1800 { max-width: 1800px !important}
+.mxw-1900 { max-width: 1900px !important}
+.mxw-2000 { max-width: 2000px !important}
+
+
+
+
+
+
+/* Height */
+
+.h-100 { height: 100% !important}
+.h-95 { height: 95% !important}
+.h-90 { height: 90% !important}
+.h-85 { height: 85% !important}
+.h-80 { height: 80% !important}
+.h-75 { height: 75% !important}
+.h-70 { height: 70% !important}
+.h-65 { height: 65% !important}
+.h-60 { height: 60% !important}
+.h-55 { height: 55% !important}
+.h-50 { height: 50% !important}
+.h-45 { height: 45% !important}
+.h-40 { height: 40% !important}
+.h-35 { height: 35% !important}
+.h-30 { height: 30% !important}
+.h-25 { height: 25% !important}
+.h-20 { height: 20% !important}
+.h-15 { height: 15% !important}
+.h-10 { height: 10% !important}
+.h-5 { height: 5% !important}
+
+.h-100vh { height: 100vh !important}
+.h-95vh { height: 95vh !important}
+.h-90vh { height: 90vh !important}
+.h-85vh { height: 85vh !important}
+.h-80vh { height: 80vh !important}
+.h-75vh { height: 75vh !important}
+.h-70vh { height: 70vh !important}
+.h-65vh { height: 65vh !important}
+.h-60vh { height: 60vh !important}
+.h-55vh { height: 55vh !important}
+.h-50vh { height: 50vh !important}
+.h-45vh { height: 45vh !important}
+.h-40vh { height: 40vh !important}
+.h-35vh { height: 35vh !important}
+.h-30vh { height: 30vh !important}
+.h-25vh { height: 25vh !important}
+.h-20vh { height: 20vh !important}
+.h-15vh { height: 15vh !important}
+.h-10vh { height: 10vh !important}
+.h-5vh { height: 5vh !important}
+
+.mxh-50 { max-height: 50px !important}
+.mxh-100 { max-height: 100px !important}
+.mxh-150 { max-height: 150px !important}
+.mxh-200 { max-height: 200px !important}
+.mxh-250 { max-height: 250px !important}
+.mxh-300 { max-height: 300px !important}
+.mxh-350 { max-height: 350px !important}
+.mxh-400 { max-height: 400px !important} 
+.mxh-450 { max-height: 450px !important}
+.mxh-500 { max-height: 500px !important}
+.mxh-550 { max-height: 550px !important}
+.mxh-600 { max-height: 600px !important}
+.mxh-650 { max-height: 650px !important}
+.mxh-700 { max-height: 700px !important}
+.mxh-750 { max-height: 750px !important}
+.mxh-800 { max-height: 800px !important}
+.mxh-850 { max-height: 850px !important}
+.mxh-900 { max-height: 900px !important} 
+.mxh-950 { max-height: 950px !important}
+.mxh-1000 { max-height: 1000px !important}
+.mxh-1100 { max-height: 1100px !important}
+.mxh-1200 { max-height: 1200px !important}
+.mxh-1300 { max-height: 1300px !important}
+.mxh-1400 { max-height: 1400px !important}
+.mxh-1500 { max-height: 1500px !important}
+
+.h-10px { height: 10px !important}
+.h-20px { height: 20px !important}
+.h-30px { height: 30px !important}
+.h-40px { height: 40px !important}
+.h-50px { height: 50px !important}
+.h-100px { height: 100px !important}
+.h-150px { height: 150px !important}
+.h-200px { height: 200px !important}
+.h-250px { height: 250px !important}
+.h-300px { height: 300px !important}
+.h-350px { height: 350px !important}
+.h-400px { height: 400px !important} 
+.h-450px { height: 450px !important}
+.h-500px { height: 500px !important}
+.h-550px { height: 550px !important}
+.h-600px { height: 600px !important}
+.h-650px { height: 650px !important}
+.h-700px { height: 700px !important}
+.h-750px { height: 750px !important}
+.h-800px { height: 800px !important}
+.h-850px { height: 850px !important}
+.h-900px { height: 900px !important} 
+.h-950px { height: 950px !important}
+.h-1000px { height: 1000px !important}
+.h-1100px { height: 1100px !important}
+.h-1200px { height: 1200px !important}
+.h-1300px { height: 1300px !important}
+.h-1400px { height: 1400px !important}
+.h-1500px { height: 1500px !important}
+.h-1600px { height: 1600px !important}
+.h-1700px { height: 1700px !important}
+.h-1800px { height: 1800px !important}
+.h-1900px { height: 1900px !important}
+.h-2000px { height: 2000px !important}
+
+
+
+
+@media (min-width: 1024px) {
+        
+    /* Width */
+
+    .lg_w-100 { width: 100% !important}
+    .lg_w-95 { width: 95% !important}
+    .lg_w-90 { width: 90% !important}
+    .lg_w-85 { width: 85% !important}
+    .lg_w-80 { width: 80% !important}
+    .lg_w-75 { width: 75% !important}
+    .lg_w-70 { width: 70% !important}
+    .lg_w-65 { width: 65% !important}
+    .lg_w-60 { width: 60% !important}
+    .lg_w-55 { width: 55% !important}
+    .lg_w-50 { width: 50% !important}
+    .lg_w-45 { width: 45% !important}
+    .lg_w-40 { width: 40% !important}
+    .lg_w-35 { width: 35% !important}
+    .lg_w-30 { width: 30% !important}
+    .lg_w-25 { width: 25% !important}
+    .lg_w-20 { width: 20% !important}
+    .lg_w-15 { width: 15% !important}
+    .lg_w-10 { width: 10% !important}
+    .lg_w-5 { width: 5% !important}
+
+    .lg_w-100vw { width: 100vw !important}
+    .lg_w-95vw { width: 95vw !important}
+    .lg_w-90vw { width: 90vw !important}
+    .lg_w-85vw { width: 85vw !important}
+    .lg_w-80vw { width: 80vw !important}
+    .lg_w-75vw { width: 75vw !important}
+    .lg_w-70vw { width: 70vw !important}
+    .lg_w-65vw { width: 65vw !important}
+    .lg_w-60vw { width: 60vw !important}
+    .lg_w-55vw { width: 55vw !important}
+    .lg_w-50vw { width: 50vw !important}
+    .lg_w-45vw { width: 45vw !important}
+    .lg_w-40vw { width: 40vw !important}
+    .lg_w-35vw { width: 35vw !important}
+    .lg_w-30vw { width: 30vw !important}
+    .lg_w-25vw { width: 25vw !important}
+    .lg_w-20vw { width: 20vw !important}
+    .lg_w-15vw { width: 15vw !important}
+    .lg_w-10vw { width: 10vw !important}
+    .lg_w-5vw { width: 5vw !important}
+
+    .lg_mxw-50 { max-width: 50px !important}
+    .lg_mxw-100 { max-width: 100px !important}
+    .lg_mxw-150 { max-width: 150px !important}
+    .lg_mxw-200 { max-width: 200px !important}
+    .lg_mxw-250 { max-width: 250px !important}
+    .lg_mxw-300 { max-width: 300px !important}
+    .lg_mxw-350 { max-width: 350px !important}
+    .lg_mxw-400 { max-width: 400px !important} 
+    .lg_mxw-450 { max-width: 450px !important}
+    .lg_mxw-500 { max-width: 500px !important}
+    .lg_mxw-550 { max-width: 550px !important}
+    .lg_mxw-600 { max-width: 600px !important}
+    .lg_mxw-650 { max-width: 650px !important}
+    .lg_mxw-700 { max-width: 700px !important}
+    .lg_mxw-750 { max-width: 750px !important}
+    .lg_mxw-800 { max-width: 800px !important}
+    .lg_mxw-850 { max-width: 850px !important}
+    .lg_mxw-900 { max-width: 900px !important} 
+    .lg_mxw-950 { max-width: 950px !important}
+    .lg_mxw-1000 { max-width: 1000px !important}
+    .lg_mxw-1100 { max-width: 1100px !important}
+    .lg_mxw-1200 { max-width: 1200px !important}
+    .lg_mxw-1300 { max-width: 1300px !important}
+    .lg_mxw-1400 { max-width: 1400px !important}
+    .lg_mxw-1500 { max-width: 1500px !important}
+    .lg_mxw-1600 { max-width: 1600px !important}
+    .lg_mxw-1700 { max-width: 1700px !important}
+    .lg_mxw-1800 { max-width: 1800px !important}
+    .lg_mxw-1900 { max-width: 1900px !important}
+    .lg_mxw-2000 { max-width: 2000px !important}
+    
+        
+    .lg_w-10px { width: 10px !important}
+    .lg_w-20px { width: 20px !important}
+    .lg_w-30px { width: 30px !important}
+    .lg_w-40px { width: 40px !important}
+    .lg_w-50px { width: 50px !important}
+    .lg_w-100px { width: 100px !important}
+    .lg_w-150px { width: 150px !important}
+    .lg_w-200px { width: 200px !important}
+    .lg_w-250px { width: 250px !important}
+    .lg_w-300px { width: 300px !important}
+    .lg_w-350px { width: 350px !important}
+    .lg_w-400px { width: 400px !important} 
+    .lg_w-450px { width: 450px !important}
+    .lg_w-500px { width: 500px !important}
+    .lg_w-550px { width: 550px !important}
+    .lg_w-600px { width: 600px !important}
+    .lg_w-650px { width: 650px !important}
+    .lg_w-700px { width: 700px !important}
+    .lg_w-750px { width: 750px !important}
+    .lg_w-800px { width: 800px !important}
+    .lg_w-850px { width: 850px !important}
+    .lg_w-900px { width: 900px !important} 
+    .lg_w-950px { width: 950px !important}
+    .lg_w-1000px { width: 1000px !important}
+    .lg_w-1100px { width: 1100px !important}
+    .lg_w-1200px { width: 1200px !important}
+    .lg_w-1300px { width: 1300px !important}
+    .lg_w-1400px { width: 1400px !important}
+    .lg_w-1500px { width: 1500px !important}
+    .lg_w-1600px { width: 1600px !important}
+    .lg_w-1700px { width: 1700px !important}
+    .lg_w-1800px { width: 1800px !important}
+    .lg_w-1900px { width: 1900px !important}
+    .lg_w-2000px { width: 2000px !important}
+
+
+    /* Height */
+
+    .lg_h-100 { height: 100% !important}
+    .lg_h-95 { height: 95% !important}
+    .lg_h-90 { height: 90% !important}
+    .lg_h-85 { height: 85% !important}
+    .lg_h-80 { height: 80% !important}
+    .lg_h-75 { height: 75% !important}
+    .lg_h-70 { height: 70% !important}
+    .lg_h-65 { height: 65% !important}
+    .lg_h-60 { height: 60% !important}
+    .lg_h-55 { height: 55% !important}
+    .lg_h-50 { height: 50% !important}
+    .lg_h-45 { height: 45% !important}
+    .lg_h-40 { height: 40% !important}
+    .lg_h-35 { height: 35% !important}
+    .lg_h-30 { height: 30% !important}
+    .lg_h-25 { height: 25% !important}
+    .lg_h-20 { height: 20% !important}
+    .lg_h-15 { height: 15% !important}
+    .lg_h-10 { height: 10% !important}
+    .lg_h-5 { height: 5% !important}
+
+    .lg_h-100vh { height: 100vh !important}
+    .lg_h-95vh { height: 95vh !important}
+    .lg_h-90vh { height: 90vh !important}
+    .lg_h-85vh { height: 85vh !important}
+    .lg_h-80vh { height: 80vh !important}
+    .lg_h-75vh { height: 75vh !important}
+    .lg_h-70vh { height: 70vh !important}
+    .lg_h-65vh { height: 65vh !important}
+    .lg_h-60vh { height: 60vh !important}
+    .lg_h-55vh { height: 55vh !important}
+    .lg_h-50vh { height: 50vh !important}
+    .lg_h-45vh { height: 45vh !important}
+    .lg_h-40vh { height: 40vh !important}
+    .lg_h-35vh { height: 35vh !important}
+    .lg_h-30vh { height: 30vh !important}
+    .lg_h-25vh { height: 25vh !important}
+    .lg_h-20vh { height: 20vh !important}
+    .lg_h-15vh { height: 15vh !important}
+    .lg_h-10vh { height: 10vh !important}
+    .lg_h-5vh { height: 5vh !important}
+
+    .lg_mxh-50 { max-height: 50px !important}
+    .lg_mxh-100 { max-height: 100px !important}
+    .lg_mxh-150 { max-height: 150px !important}
+    .lg_mxh-200 { max-height: 200px !important}
+    .lg_mxh-250 { max-height: 250px !important}
+    .lg_mxh-300 { max-height: 300px !important}
+    .lg_mxh-350 { max-height: 350px !important}
+    .lg_mxh-400 { max-height: 400px !important} 
+    .lg_mxh-450 { max-height: 450px !important}
+    .lg_mxh-500 { max-height: 500px !important}
+    .lg_mxh-550 { max-height: 550px !important}
+    .lg_mxh-600 { max-height: 600px !important}
+    .lg_mxh-650 { max-height: 650px !important}
+    .lg_mxh-700 { max-height: 700px !important}
+    .lg_mxh-750 { max-height: 750px !important}
+    .lg_mxh-800 { max-height: 800px !important}
+    .lg_mxh-850 { max-height: 850px !important}
+    .lg_mxh-900 { max-height: 900px !important} 
+    .lg_mxh-950 { max-height: 950px !important}
+    .lg_mxh-1000 { max-height: 1000px !important}
+    .lg_mxh-1100 { max-height: 1100px !important}
+    .lg_mxh-1200 { max-height: 1200px !important}
+    .lg_mxh-1300 { max-height: 1300px !important}
+    .lg_mxh-1400 { max-height: 1400px !important}
+    .lg_mxh-1500 { max-height: 1500px !important}
+
+    .lg_h-10px { height: 10px !important}
+    .lg_h-20px { height: 20px !important}
+    .lg_h-30px { height: 30px !important}
+    .lg_h-40px { height: 40px !important}
+    .lg_h-50px { height: 50px !important}
+    .lg_h-100px { height: 100px !important}
+    .lg_h-150px { height: 150px !important}
+    .lg_h-200px { height: 200px !important}
+    .lg_h-250px { height: 250px !important}
+    .lg_h-300px { height: 300px !important}
+    .lg_h-350px { height: 350px !important}
+    .lg_h-400px { height: 400px !important} 
+    .lg_h-450px { height: 450px !important}
+    .lg_h-500px { height: 500px !important}
+    .lg_h-550px { height: 550px !important}
+    .lg_h-600px { height: 600px !important}
+    .lg_h-650px { height: 650px !important}
+    .lg_h-700px { height: 700px !important}
+    .lg_h-750px { height: 750px !important}
+    .lg_h-800px { height: 800px !important}
+    .lg_h-850px { height: 850px !important}
+    .lg_h-900px { height: 900px !important} 
+    .lg_h-950px { height: 950px !important}
+    .lg_h-1000px { height: 1000px !important}
+    .lg_h-1100px { height: 1100px !important}
+    .lg_h-1200px { height: 1200px !important}
+    .lg_h-1300px { height: 1300px !important}
+    .lg_h-1400px { height: 1400px !important}
+    .lg_h-1500px { height: 1500px !important}
+    .lg_h-1600px { height: 1600px !important}
+    .lg_h-1700px { height: 1700px !important}
+    .lg_h-1800px { height: 1800px !important}
+    .lg_h-1900px { height: 1900px !important}
+    .lg_h-2000px { height: 2000px !important}
+
+}
+
+
+
+
+
+@media (min-width: 768px) {    
+        .md_w-100 { width: 100% !important}
+        .md_w-95 { width: 95% !important}
+        .md_w-90 { width: 90% !important}
+        .md_w-85 { width: 85% !important}
+        .md_w-80 { width: 80% !important}
+        .md_w-75 { width: 75% !important}
+        .md_w-70 { width: 70% !important}
+        .md_w-65 { width: 65% !important}
+        .md_w-60 { width: 60% !important}
+        .md_w-55 { width: 55% !important}
+        .md_w-50 { width: 50% !important}
+        .md_w-45 { width: 45% !important}
+        .md_w-40 { width: 40% !important}
+        .md_w-35 { width: 35% !important}
+        .md_w-30 { width: 30% !important}
+        .md_w-25 { width: 25% !important}
+        .md_w-20 { width: 20% !important}
+        .md_w-15 { width: 15% !important}
+        .md_w-10 { width: 10% !important}
+        .md_w-5 { width: 5% !important}
+        
+        .md_w-100vw { width: 100vw !important}
+        .md_w-95vw { width: 95vw !important}
+        .md_w-90vw { width: 90vw !important}
+        .md_w-85vw { width: 85vw !important}
+        .md_w-80vw { width: 80vw !important}
+        .md_w-75vw { width: 75vw !important}
+        .md_w-70vw { width: 70vw !important}
+        .md_w-65vw { width: 65vw !important}
+        .md_w-60vw { width: 60vw !important}
+        .md_w-55vw { width: 55vw !important}
+        .md_w-50vw { width: 50vw !important}
+        .md_w-45vw { width: 45vw !important}
+        .md_w-40vw { width: 40vw !important}
+        .md_w-35vw { width: 35vw !important}
+        .md_w-30vw { width: 30vw !important}
+        .md_w-25vw { width: 25vw !important}
+        .md_w-20vw { width: 20vw !important}
+        .md_w-15vw { width: 15vw !important}
+        .md_w-10vw { width: 10vw !important}
+        .md_w-5vw { width: 5vw !important}
+        
+        .md_mxw-50 { max-width: 50px !important}
+        .md_mxw-100 { max-width: 100px !important}
+        .md_mxw-150 { max-width: 150px !important}
+        .md_mxw-200 { max-width: 200px !important}
+        .md_mxw-250 { max-width: 250px !important}
+        .md_mxw-300 { max-width: 300px !important}
+        .md_mxw-350 { max-width: 350px !important}
+        .md_mxw-400 { max-width: 400px !important} 
+        .md_mxw-450 { max-width: 450px !important}
+        .md_mxw-500 { max-width: 500px !important}
+        .md_mxw-550 { max-width: 550px !important}
+        .md_mxw-600 { max-width: 600px !important}
+        .md_mxw-650 { max-width: 650px !important}
+        .md_mxw-700 { max-width: 700px !important}
+        .md_mxw-750 { max-width: 750px !important}
+        .md_mxw-800 { max-width: 800px !important}
+        .md_mxw-850 { max-width: 850px !important}
+        .md_mxw-900 { max-width: 900px !important} 
+        .md_mxw-950 { max-width: 950px !important}
+        .md_mxw-1000 { max-width: 1000px !important}
+        .md_mxw-1100 { max-width: 1100px !important}
+        .md_mxw-1200 { max-width: 1200px !important}
+        .md_mxw-1300 { max-width: 1300px !important}
+        .md_mxw-1400 { max-width: 1400px !important}
+        .md_mxw-1500 { max-width: 1500px !important}
+        .md_mxw-1600 { max-width: 1600px !important}
+        .md_mxw-1700 { max-width: 1700px !important}
+        .md_mxw-1800 { max-width: 1800px !important}
+        .md_mxw-1900 { max-width: 1900px !important}
+        .md_mxw-2000 { max-width: 2000px !important}
+          
+        
+        .md_w-10px { width: 10px !important}
+        .md_w-20px { width: 20px !important}
+        .md_w-30px { width: 30px !important}
+        .md_w-40px { width: 40px !important}
+        .md_w-50px { width: 50px !important}
+        .md_w-100px { width: 100px !important}
+        .md_w-150px { width: 150px !important}
+        .md_w-200px { width: 200px !important}
+        .md_w-250px { width: 250px !important}
+        .md_w-300px { width: 300px !important}
+        .md_w-350px { width: 350px !important}
+        .md_w-400px { width: 400px !important} 
+        .md_w-450px { width: 450px !important}
+        .md_w-500px { width: 500px !important}
+        .md_w-550px { width: 550px !important}
+        .md_w-600px { width: 600px !important}
+        .md_w-650px { width: 650px !important}
+        .md_w-700px { width: 700px !important}
+        .md_w-750px { width: 750px !important}
+        .md_w-800px { width: 800px !important}
+        .md_w-850px { width: 850px !important}
+        .md_w-900px { width: 900px !important} 
+        .md_w-950px { width: 950px !important}
+        .md_w-1000px { width: 1000px !important}
+        .md_w-1100px { width: 1100px !important}
+        .md_w-1200px { width: 1200px !important}
+        .md_w-1300px { width: 1300px !important}
+        .md_w-1400px { width: 1400px !important}
+        .md_w-1500px { width: 1500px !important}
+        .md_w-1600px { width: 1600px !important}
+        .md_w-1700px { width: 1700px !important}
+        .md_w-1800px { width: 1800px !important}
+        .md_w-1900px { width: 1900px !important}
+        .md_w-2000px { width: 2000px !important}
+    
+    
+    /* Height */
+    
+        .md_h-100 { height: 100% !important}
+        .md_h-95 { height: 95% !important}
+        .md_h-90 { height: 90% !important}
+        .md_h-85 { height: 85% !important}
+        .md_h-80 { height: 80% !important}
+        .md_h-75 { height: 75% !important}
+        .md_h-70 { height: 70% !important}
+        .md_h-65 { height: 65% !important}
+        .md_h-60 { height: 60% !important}
+        .md_h-55 { height: 55% !important}
+        .md_h-50 { height: 50% !important}
+        .md_h-45 { height: 45% !important}
+        .md_h-40 { height: 40% !important}
+        .md_h-35 { height: 35% !important}
+        .md_h-30 { height: 30% !important}
+        .md_h-25 { height: 25% !important}
+        .md_h-20 { height: 20% !important}
+        .md_h-15 { height: 15% !important}
+        .md_h-10 { height: 10% !important}
+        .md_h-5 { height: 5% !important}
+    
+        .md_h-100vh { height: 100vh !important}
+        .md_h-95vh { height: 95vh !important}
+        .md_h-90vh { height: 90vh !important}
+        .md_h-85vh { height: 85vh !important}
+        .md_h-80vh { height: 80vh !important}
+        .md_h-75vh { height: 75vh !important}
+        .md_h-70vh { height: 70vh !important}
+        .md_h-65vh { height: 65vh !important}
+        .md_h-60vh { height: 60vh !important}
+        .md_h-55vh { height: 55vh !important}
+        .md_h-50vh { height: 50vh !important}
+        .md_h-45vh { height: 45vh !important}
+        .md_h-40vh { height: 40vh !important}
+        .md_h-35vh { height: 35vh !important}
+        .md_h-30vh { height: 30vh !important}
+        .md_h-25vh { height: 25vh !important}
+        .md_h-20vh { height: 20vh !important}
+        .md_h-15vh { height: 15vh !important}
+        .md_h-10vh { height: 10vh !important}
+        .md_h-5vh { height: 5vh !important}
+    
+        .md_mxh-50 { max-height: 50px !important}
+        .md_mxh-100 { max-height: 100px !important}
+        .md_mxh-150 { max-height: 150px !important}
+        .md_mxh-200 { max-height: 200px !important}
+        .md_mxh-250 { max-height: 250px !important}
+        .md_mxh-300 { max-height: 300px !important}
+        .md_mxh-350 { max-height: 350px !important}
+        .md_mxh-400 { max-height: 400px !important} 
+        .md_mxh-450 { max-height: 450px !important}
+        .md_mxh-500 { max-height: 500px !important}
+        .md_mxh-550 { max-height: 550px !important}
+        .md_mxh-600 { max-height: 600px !important}
+        .md_mxh-650 { max-height: 650px !important}
+        .md_mxh-700 { max-height: 700px !important}
+        .md_mxh-750 { max-height: 750px !important}
+        .md_mxh-800 { max-height: 800px !important}
+        .md_mxh-850 { max-height: 850px !important}
+        .md_mxh-900 { max-height: 900px !important} 
+        .md_mxh-950 { max-height: 950px !important}
+        .md_mxh-1000 { max-height: 1000px !important}
+        .md_mxh-1100 { max-height: 1100px !important}
+        .md_mxh-1200 { max-height: 1200px !important}
+        .md_mxh-1300 { max-height: 1300px !important}
+        .md_mxh-1400 { max-height: 1400px !important}
+        .md_mxh-1500 { max-height: 1500px !important}
+    
+        .md_h-10px { height: 10px !important}
+        .md_h-20px { height: 20px !important}
+        .md_h-30px { height: 30px !important}
+        .md_h-40px { height: 40px !important}
+        .md_h-50px { height: 50px !important}
+        .md_h-100px { height: 100px !important}
+        .md_h-150px { height: 150px !important}
+        .md_h-200px { height: 200px !important}
+        .md_h-250px { height: 250px !important}
+        .md_h-300px { height: 300px !important}
+        .md_h-350px { height: 350px !important}
+        .md_h-400px { height: 400px !important} 
+        .md_h-450px { height: 450px !important}
+        .md_h-500px { height: 500px !important}
+        .md_h-550px { height: 550px !important}
+        .md_h-600px { height: 600px !important}
+        .md_h-650px { height: 650px !important}
+        .md_h-700px { height: 700px !important}
+        .md_h-750px { height: 750px !important}
+        .md_h-800px { height: 800px !important}
+        .md_h-850px { height: 850px !important}
+        .md_h-900px { height: 900px !important} 
+        .md_h-950px { height: 950px !important}
+        .md_h-1000px { height: 1000px !important}
+        .md_h-1100px { height: 1100px !important}
+        .md_h-1200px { height: 1200px !important}
+        .md_h-1300px { height: 1300px !important}
+        .md_h-1400px { height: 1400px !important}
+        .md_h-1500px { height: 1500px !important}
+        .md_h-1600px { height: 1600px !important}
+        .md_h-1700px { height: 1700px !important}
+        .md_h-1800px { height: 1800px !important}
+        .md_h-1900px { height: 1900px !important}
+        .md_h-2000px { height: 2000px !important}
+    
+}
