@@ -1,3 +1,46 @@
+/* Custom colors */
+.success {
+    background-color: #00cc14 !important;
+    color: #f7f7f7 !important;
+}
+.error {
+background-color: var(--red) !important;
+color: #f7f7f7 !important;
+}
+.warning {
+background-color: var(--yellow) !important;
+color: #f7f7f7 !important;
+}
+
+.success-alt {
+color: #00cc14 !important;
+background-color: #f7f7f7 !important;
+}
+.error-alt {
+background-color: var(--red) !important;
+background-color: #f7f7f7 !important;
+}
+.warning-alt {
+background-color: var(--yellow) !important;
+background-color: #f7f7f7 !important;
+}
+
+.primary {
+    background-color: var(--blue) !important;
+    color: #f7f7f7 !important;
+}
+.primary-alt {
+background-color: #f7f7f7 !important;
+color: var(--blue) !important;
+}
+.secondary {
+background-color: var(--col) !important;
+color: #f7f7f7 !important;
+}
+.secondary-alt {
+background-color: #f7f7f7 !important;
+color: var(--col) !important;
+}
 
 /* Font Colors */
 
@@ -31,9 +74,6 @@
 .fill-transparent { fill: transparent !important}
 .fill-inherit { fill: inherit !important}
 
-
-
-
 /* Background Colors */
 
 .bg-col { background-color: var(--col) !important}
@@ -48,6 +88,114 @@
 .bg-dark-green { background-color: var(--dark-green) !important}
 .bg-yellow { background-color: var(--yellow) !important}
 .bg-transparent { background-color: transparent !important}
+
+
+
+
+
+
+
+
+
+/* Hover Effects */
+/* Font Colors */
+
+.hover_f-col:hover { color: var(--col) !important}
+.hover_f-white:hover { color: var(--white) !important}
+.hover_f-black:hover { color: var(--black) !important}
+.hover_f-green:hover { color: var(--green) !important}
+.hover_f-red:hover { color: var(--red) !important}
+.hover_f-blue:hover { color: var(--blue) !important}
+.hover_f-grey:hover { color: var(--grey) !important}
+.hover_f-gray:hover { color: var(--gray) !important}
+.hover_f-orange:hover { color: var(--orange) !important}
+.hover_f-dark-green:hover { color: var(--dark-green) !important}
+.hover_f-yellow:hover { color: var(--yellow) !important}
+.hover_f-transparent:hover { color: transparent !important}
+.hover_f-inherit:hover { color: inherit !important}
+
+/* Fill Colors */
+
+.hover_fill-col:hover { fill: var(--col) !important}
+.hover_fill-white:hover { fill: var(--white) !important}
+.hover_fill-black:hover { fill: var(--black) !important}
+.hover_fill-green:hover { fill: var(--green) !important}
+.hover_fill-red:hover { fill: var(--red) !important}
+.hover_fill-blue:hover { fill: var(--blue) !important}
+.hover_fill-grey:hover { fill: var(--grey) !important}
+.hover_fill-gray:hover { fill: var(--gray) !important}
+.hover_fill-orange:hover { fill: var(--orange) !important}
+.hover_fill-dark-green:hover { fill: var(--dark-green) !important}
+.hover_fill-yellow:hover { fill: var(--yellow) !important}
+.hover_fill-transparent:hover { fill: transparent !important}
+.hover_fill-inherit:hover { fill: inherit !important}
+
+/* Background Colors */
+
+.hover_bg-col:hover { background-color: var(--col) !important}
+.hover_bg-white:hover { box-shadow: 0 0 2px; background-color: var(--white) !important}
+.hover_bg-black:hover { background-color: var(--black) !important}
+.hover_bg-green:hover { background-color: var(--green) !important}
+.hover_bg-red:hover { background-color: var(--red) !important}
+.hover_bg-blue:hover { background-color: var(--blue) !important}
+.hover_bg-grey:hover { background-color: var(--grey) !important}
+.hover_bg-gray:hover { background-color: var(--gray) !important}
+.hover_bg-orange:hover { background-color: var(--orange) !important}
+.hover_bg-dark-green:hover { background-color: var(--dark-green) !important}
+.hover_bg-yellow:hover { background-color: var(--yellow) !important}
+.hover_bg-transparent:hover { background-color: transparent !important}
+
+
+.hover_success:hover {
+    background-color: #00cc14 !important;
+    color: #f7f7f7 !important;
+}
+.hover_error:hover {
+background-color: var(--red) !important;
+color: #f7f7f7 !important;
+}
+.hover_warning:hover {
+background-color: var(--yellow) !important;
+color: #f7f7f7 !important;
+}
+
+.hover_success-alt:hover {
+color: #00cc14 !important;
+box-shadow: 0 0 2px;
+background-color: #f7f7f7 !important;
+}
+.hover_error-alt:hover {
+background-color: var(--red) !important;
+box-shadow: 0 0 2px;
+background-color: #f7f7f7 !important;
+}
+.hover_warning-alt:hover {
+background-color: var(--yellow) !important;
+box-shadow: 0 0 2px;
+background-color: #f7f7f7 !important;
+}
+
+.hover_primary:hover {
+    background-color: var(--blue) !important;
+    color: #f7f7f7 !important;
+}
+.hover_primary-alt:hover {
+background-color: #f7f7f7 !important;
+box-shadow: 0 0 2px;
+color: var(--blue) !important;
+}
+.hover_secondary:hover {
+background-color: var(--col) !important;
+color: #f7f7f7 !important;
+}
+.hover_secondary-alt:hover {
+background-color: #f7f7f7 !important;
+box-shadow: 0 0 2px;
+color: var(--col) !important;
+}
+
+
+
 
 
 @media (min-width : 768px) {
@@ -121,3 +269,95 @@
     .lg_bg-yellow { background-color: var(--yellow) !important}
     .lg_bg-transparent { background-color: transparent !important}
 }
+
+
+
+
+
+
+
+
+
+
+/*  Epic Color Palette */
+
+
+
+.bg-white-10 { background-color: hsl(0, 0%, 10%) !important}
+.bg-white-20 { background-color: hsl(0, 0%, 20%) !important}
+.bg-white-30 { background-color: hsl(0, 0%, 30%) !important}
+.bg-white-40 { background-color: hsl(0, 0%, 40%) !important}
+.bg-white-50 { background-color: hsl(0, 0%, 50%) !important}
+.bg-white-60 { background-color: hsl(0, 0%, 60%) !important}
+.bg-white-70 { background-color: hsl(0, 0%, 70%) !important}
+.bg-white-80 { background-color: hsl(0, 0%, 80%) !important}
+.bg-white-90 { background-color: hsl(0, 0%, 90%) !important}
+
+
+
+.bg-black-10 { background-color: hsl(0, 0%, 10%) !important}
+.bg-black-20 { background-color: hsl(0, 0%, 20%) !important}
+.bg-black-30 { background-color: hsl(0, 0%, 30%) !important}
+.bg-black-40 { background-color: hsl(0, 0%, 40%) !important}
+.bg-black-50 { background-color: hsl(0, 0%, 50%) !important}
+.bg-black-60 { background-color: hsl(0, 0%, 60%) !important}
+.bg-black-70 { background-color: hsl(0, 0%, 70%) !important}
+.bg-black-80 { background-color: hsl(0, 0%, 80%) !important}
+.bg-black-90 { background-color: hsl(0, 0%, 90%) !important}
+
+
+
+.bg-green-10 { background-color: hsl(120, 100%, 10%) !important}
+.bg-green-20 { background-color: hsl(120, 100%, 20%) !important}
+.bg-green-30 { background-color: hsl(120, 100%, 30%) !important}
+.bg-green-40 { background-color: hsl(120, 100%, 40%) !important}
+.bg-green-50 { background-color: hsl(120, 100%, 50%) !important}
+.bg-green-60 { background-color: hsl(120, 100%, 60%) !important}
+.bg-green-70 { background-color: hsl(120, 100%, 70%) !important}
+.bg-green-80 { background-color: hsl(120, 100%, 80%) !important}
+.bg-green-90 { background-color: hsl(120, 100%, 90%) !important}
+
+
+
+.bg-red-10 { background-color: hsl(0, 100%, 10%) !important}
+.bg-red-20 { background-color: hsl(0, 100%, 20%) !important}
+.bg-red-30 { background-color: hsl(0, 100%, 30%) !important}
+.bg-red-40 { background-color: hsl(0, 100%, 40%) !important}
+.bg-red-50 { background-color: hsl(0, 100%, 50%) !important}
+.bg-red-60 { background-color: hsl(0, 100%, 60%) !important}
+.bg-red-70 { background-color: hsl(0, 100%, 70%) !important}
+.bg-red-80 { background-color: hsl(0, 100%, 80%) !important}
+.bg-red-90 { background-color: hsl(0, 100%, 90%) !important}
+
+
+.bg-blue-10 { background-color: hsl(240, 100%, 10%) !important}
+.bg-blue-20 { background-color: hsl(240, 100%, 20%) !important}
+.bg-blue-30 { background-color: hsl(240, 100%, 30%) !important}
+.bg-blue-40 { background-color: hsl(240, 100%, 40%) !important}
+.bg-blue-50 { background-color: hsl(240, 100%, 50%) !important}
+.bg-blue-60 { background-color: hsl(240, 100%, 60%) !important}
+.bg-blue-70 { background-color: hsl(240, 100%, 70%) !important}
+.bg-blue-80 { background-color: hsl(240, 100%, 80%) !important}
+.bg-blue-90 { background-color: hsl(240, 100%, 90%) !important}
+
+
+.bg-orange-10 { background-color: hsl(39, 100%, 10%) !important}
+.bg-orange-20 { background-color: hsl(39, 100%, 20%) !important}
+.bg-orange-30 { background-color: hsl(39, 100%, 30%) !important}
+.bg-orange-40 { background-color: hsl(39, 100%, 40%) !important}
+.bg-orange-50 { background-color: hsl(39, 100%, 50%) !important}
+.bg-orange-60 { background-color: hsl(39, 100%, 60%) !important}
+.bg-orange-70 { background-color: hsl(39, 100%, 70%) !important}
+.bg-orange-80 { background-color: hsl(39, 100%, 80%) !important}
+.bg-orange-90 { background-color: hsl(39, 100%, 90%) !important}
+
+
+.bg-yellow-10 { background-color: hsl(60, 100%, 10%) !important}
+.bg-yellow-20 { background-color: hsl(60, 100%, 20%) !important}
+.bg-yellow-30 { background-color: hsl(60, 100%, 30%) !important}
+.bg-yellow-40 { background-color: hsl(60, 100%, 40%) !important}
+.bg-yellow-50 { background-color: hsl(60, 100%, 50%) !important}
+.bg-yellow-60 { background-color: hsl(60, 100%, 60%) !important}
+.bg-yellow-70 { background-color: hsl(60, 100%, 70%) !important}
+.bg-yellow-80 { background-color: hsl(60, 100%, 80%) !important}
+.bg-yellow-90 { background-color: hsl(60, 100%, 90%) !important}

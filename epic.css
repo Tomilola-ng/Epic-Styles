@@ -31,7 +31,6 @@
     }
     .epic_logo {
         font-weight: bold;
-        margin-left: 1.5rem;
         letter-spacing: 1.1px;
     }
     .epic_nav {
@@ -182,6 +181,9 @@
         }
         .epic_close-nav {
             display: none;
+        }
+        .epic_logo {
+            margin-left: 1.5rem;
         }
         .epic_menu-btn {
             display: none;

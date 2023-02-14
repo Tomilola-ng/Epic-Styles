@@ -17,6 +17,18 @@
 
         <title> Epic-Styles | Classically pre-designed CSS framework </title>
 
+        <!-- Compulsory CSS Links  -->
+        <link rel="stylesheet" href="./epic.css">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./colour.css">
+        <link rel="stylesheet" href="./sizes.css">
+        <link rel="stylesheet" href="./classes.css">
+        <link rel="stylesheet" href="./lg_classes.css">
+        <link rel="stylesheet" href="./md_classes.css">
+        <link rel="stylesheet" href="./font.css"> 
+        <link rel="stylesheet" href="./icon.css"> 
+        <link rel="stylesheet" href="./anim.css">
+
         <link rel="shortcut icon" href="./Epic-styles-logo.png" type="image/x-icon">
 
         <script src="./epic.js"></script>
@@ -56,23 +68,61 @@
         </header>
 
         <!-- Landing Page -->
-        <section class="row fw-wr jc-sa w-100vw h-95vh lg_h-85vh">
-            <article class="col ai-fs container mxw-350 md_mxw-450 left-in">
-                <h1 class="fs-4 md_fs-5"> Classically pre-designed CSS framework. </h1>
+        <section class="row fw-wr jc-sa w-100vw h-95vh lg_h-85vh o-hide">
+            <article class="observe_anim col ai-fs container mxw-300 md_mxw-450 left-in">
+                <h1 class="fs-4 md_fs-3"> Classically pre-designed CSS framework. </h1>
                 <p class="f-grey"> Get access to custom pre-written CSS code. designed to be responsive for multiple screen sizes, including animations and enhanced design effects.   </p>
                 <div class="gap"></div>
-                <!-- <button class="btn success fs-5"> 
-                    <i class="fs-5 ep-check f-white"></i>
-                    Copied
-                </button> -->
-                <button title="<script src='https://epic-styles.github.io/epic.js'></script>" class="epic_copy-btns btn primary"> 
-                    <i class="fs-5 ep-clipboard f-white"></i>
+                <button title="<script src='https://epic-styles.github.io/epic.js'></script>" class="epic_copy-btns btn primary hover_primary-alt"> 
+                    <i class="fs-5 ep-clipboard f-inherit"></i>
                     Copy Script Tag 
                 </button>
             </article>
-            <article class="svg container col mxw-300 lg_mxw-400 right-in">
-                <img src="./Epic-styles-logo.svg" alt="">
+            <article class="observe_anim svg container mxw-300 pbt-0 lg_mxw-400 right-in">
+                <img src="./Epic-styles-logo.svg" class="w-90">
             </article>
+        </section>
+
+        <!-- Demo Page -->
+        <section class="row fw-w jc-se w-100vw bg-col container">
+            <div class="gap h-5vh"></div>
+            <article class="container mxw-400 card secondary-alt">
+                <h1 class="w-100 ta-c"> Demo Div Classlist </h1>
+                <div id="epic_applied_classes" class="row fw-w fs-7"></div>
+                <div class="primary row fw-w container bdrs">
+                    <p class="primary-alt bdrs-pill p-1">Add more Classes+</p>
+                    <div class="gap"></div>
+                    <p title="h-300px" class="epic_toggle_class_title primary-alt bdrs-pill p-1 fs-7 mr-1 mb-1">h-300px</p>
+                    <p title="w-300px" class="epic_toggle_class_title primary-alt bdrs-pill p-1 fs-7 mr-1 mb-1">w-300px</p>
+                    <p title="lg_h-400px" class="epic_toggle_class_title primary-alt bdrs-pill p-1 fs-7 mr-1 mb-1">lg_h-400px</p>
+                    <p title="lg_w-400px" class="epic_toggle_class_title primary-alt bdrs-pill p-1 fs-7 mr-1 mb-1">lg_w-400px</p>
+                    <p title="bdrs-circle" class="epic_toggle_class_title primary-alt bdrs-pill p-1 fs-7 mr-1 mb-1">bdrs-circle</p>
+                    <p title="bg-red" class="epic_toggle_class_title primary-alt bdrs-pill p-1 fs-7 mr-1 mb-1">bg-red</p>
+                    <p title="bold" class="epic_toggle_class_title primary-alt bdrs-pill p-1 fs-7 mr-1 mb-1">bold</p>
+                    <p title="m-auto" class="epic_toggle_class_title primary-alt bdrs-pill p-1 fs-7 mr-1 mb-1">m-auto</p>
+                    <p title="card" class="epic_toggle_class_title primary-alt bdrs-pill p-1 fs-7 mr-1 mb-1">card</p>
+                    <p title="bg-green-90" class="epic_toggle_class_title primary-alt bdrs-pill p-1 fs-7 mr-1 mb-1">bg-green-90</p>
+                    <p title="bg-yellow-90" class="epic_toggle_class_title primary-alt bdrs-pill p-1 fs-7 mr-1 mb-1">bg-yellow-90</p>
+                    <p title="bg-red-40" class="epic_toggle_class_title primary-alt bdrs-pill p-1 fs-7 mr-1 mb-1">bg-red-40</p>
+                    <p title="fs-1" class="epic_toggle_class_title primary-alt bdrs-pill p-1 fs-7 mr-1 mb-1">fs-1</p>
+                    <p title="col" class="epic_toggle_class_title primary-alt bdrs-pill p-1 fs-7 mr-1 mb-1">col</p>
+                    <p title="row" class="epic_toggle_class_title primary-alt bdrs-pill p-1 fs-7 mr-1 mb-1">row</p>
+                    <p title="right-in" class="epic_toggle_class_title primary-alt bdrs-pill p-1 fs-7 mr-1 mb-1">right-in</p>
+                    <p title="anim_r-3" class="epic_toggle_class_title primary-alt bdrs-pill p-1 fs-7 mr-1 mb-1">anim_r-3</p>
+                    <p title="p-2" class="epic_toggle_class_title primary-alt bdrs-pill p-1 fs-7 mr-1 mb-1">p-2</p>
+                    <p title="container" class="epic_toggle_class_title primary-alt bdrs-pill p-1 fs-7 mr-1 mb-1">container</p>
+                    <p title="ep-eye" class="epic_toggle_class_title primary-alt bdrs-pill p-1 fs-7 mr-1 mb-1">ep-eye</p>
+                    <p title="f-col" class="epic_toggle_class_title primary-alt bdrs-pill p-1 fs-7 mr-1 mb-1">f-col</p>
+                    <p title="f-red" class="epic_toggle_class_title primary-alt bdrs-pill p-1 fs-7 mr-1 mb-1">f-red</p>
+                    <p title="underline" class="epic_toggle_class_title primary-alt bdrs-pill p-1 fs-7 mr-1 mb-1">underline</p>
+                </div>
+            </article>
+            <article class="h-100vh w-100vw mxw-350 mxh-350  lg_mxh-450 lg_mxw-450 col m-auto observe_anim anim_r-2">
+                <div id="epic_demo_div" class="h-300px w-300px lg_h-400px lg_w-400px m-auto card bg-green-90">
+                    I am Demo Div
+                </div>
+            </article>
+            <div class="gap h-5vh"></div>
         </section>
 
         <!-- How to Use Page -->
@@ -84,22 +134,22 @@
             
 
             <article class="row fw-w jc-sa container mxw-450">
-                    <h3 class="w-100 pr-5 ta-c"> Copy Epic-styles script tag </h3>
-                    <div class="col w-10 as-c">
-                        <i class="ep-1-circle fs-3"></i>
-                    </div>
+                <div class="col w-10 as-c">
+                    <i class="ep-1-circle fs-3"></i>
+                </div>
+                
+                <div class="col w-80 epic_align-left">
+                    <h1 class="w-100"> Copy Epic-styles script tag </h1>
+                    <p class="f-grey">
+                        This will get you a HTML script tag which must be added to the head tag of your HTML file without adding the defer attribute, copy tag below.
+                    </p>
                     
-                    <div class="col w-80 epic_align-left">
-                        <p class="fs-7">
-                            This will get you a HTML script tag which must be added to the head tag of your HTML file without adding the defer attribute, copy tag below.
-                        </p>
-                        
-                        <div class="row jc-sb h-40px mt-2">
-                            <input type="text" value='<script src="https://tee-o28.github.io/epic.js"></script>' class="h-100 w-80">
-                            <button title="<script src='https://epic-styles.github.io/epic.js'></script>" class="epic_copy-btns btn primary ep-clipboard h-100 w-15"> 
-                            </button>
-                        </div>
+                    <div class="row jc-sb h-40px mt-2">
+                        <input type="text" value='<script src="https://tee-o28.github.io/epic.js"></script>' class="h-100 w-80">
+                        <button title="<script src='https://epic-styles.github.io/epic.js'></script>" class="epic_copy-btns btn primary ep-clipboard h-100 w-15 hover_primary-alt"> 
+                        </button>
                     </div>
+                </div>
             </article>
 
             <hr class="lg_dp-none">
@@ -110,10 +160,11 @@
                 </div>
                 
                 <article class="col w-80 epic_align-left">
-                    <h3> Copy Epic-styles starter file  </h3>
-                    <p class="fs-7">
+                    <h1 class="w-100"> Copy Epic-styles starter file  </h1>
+                    <p class="f-grey">
                         Copy this HTML starter file with the Epic-Styles script tag loaded up and style settings configured. This will get you access to the Epic-Styles CSS.
                     </p>
+                    
                     <div class="h-40px mt-2">
                         <button class="btn ep-clipboard h-100 w-100"> 
                             Copy starter file 
@@ -124,7 +175,7 @@
 
             <hr class="lg_dp-none">
 
-            <article class="bg-black f-green epic_f-inherit container plr-1 bdrs fs-7 w-90">
+            <article class="observe_anim anim_d-1 bg-black f-green epic_f-inherit container plr-1 bdrs fs-7 w-90">
                 <div class="w-100 row jc-sa">
                     <div class="w-100"></div>
                     <div class="row jc-sa w-100px lg_mr-4">
@@ -165,6 +216,62 @@
                 </ol>
             </article>
 
+            <div class="gap h-vh"></div>
+        </section>
+
+        <!-- Advert Page -->
+        <section class="row fw-w jc-sa mxw-400 lg_mxw-1000 m-auto plr-2 md_plr-0">
+            <div class="gap h-5vh"></div>
+            <article class="col ai-fs container mxw-450">
+                <div class="card p-4 col pos-relative">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-35px pos-absolute center" viewBox="0 0 16 16">
+                        <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+                      </svg>
+                </div>
+                <h1 class="fs-4 md_fs-5"> Bring your styles to life </h1>
+                <p class="f-grey">
+                    Make your designs come alive by adding hover effects, animations and intersection observers to your projects, copy your preffered style classes and add to your HTML element tags. 
+                </p>
+                <div class="gap"></div>
+                <div class="row fw-w">
+                    <button class="btn mr-1 mbt-1 primary hover_primary-alt"> 
+                        hover_primary-alt
+                    </button>
+                    <button class="btn mr-1 mbt-1 primary left-in anim_repeat-3 anim_d-1"> 
+                        left-in
+                    </button>
+                    <button class="btn mbt-1 primary observe_anim"> 
+                        observe_anim
+                    </button>
+                </div>
+            </article>
+
+            <div class="gap h-5vh md_dp-none"></div>
+            <article class="col ai-fs container mxw-450">
+                <div class="card p-4 col pos-relative">
+                    
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-35px pos-absolute center" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                        <path d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8zm-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.037-.37-.061-.591-.052-.464-.112-1.005-.118-1.462-.01-.707.083-1.61.704-2.314.369-.417.845-.578 1.272-.618.404-.038.812.026 1.16.104.343.077.702.186 1.025.284l.028.008c.346.105.658.199.953.266.653.148.904.083.991.024C14.717 9.38 15 9.161 15 8a7 7 0 1 0-7 7z"/>
+                      </svg>
+                </div>
+                <h1 class="fs-4 md_fs-5"> Enjoy epic color palette </h1>
+                <p class="f-grey">
+                    Add spice to your page with this expertly crafted color palette, with suffix number values  in multiples of 10 to control light intensity.
+                </p>
+                <div class="gap"></div>
+                <div class="row fw-w">
+                    <button class="btn mb-2 bg-red-30"> 
+                        bg-red-20
+                    </button>
+                    <button class="btn mb-2 bg-red-50 ml-1"> 
+                        bg-red-50
+                    </button>
+                    <button class="btn mb-2 bg-red-70 ml-1"> 
+                        bg-red-70
+                    </button>
+                </div>
+            </article>
             <div class="gap h-5vh"></div>
         </section>
 
@@ -177,13 +284,13 @@
                 </h1>
             </article>
             <article class="mxw-1100 row fw-w jc-sa container m-auto">
-                <div class="img mxw-400 h-calc">
+                <div class="observe_anim anim_d-1 anim_up img mxw-400 h-calc">
                     <img src="./Epic-css.png" alt="">
                 </div>
                 <div class="lg_dp-none gap h-10vh"></div>
-                <p class="mxw-450">
+                <p class="mxw-400 ta-c">
                     Hello you on the other side of the screen, I am 
-                    <a href="." class="f-col underline">
+                    <a href="https://linktr.ee/tomilola_ng" class="f-col underline">
                         Oluwafemi Tomilola
                     </a> a digital Entrepreneur skilled in Full stack engineering and Product designing. 
                     <br>

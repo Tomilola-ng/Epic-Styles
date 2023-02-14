@@ -39,26 +39,6 @@
   margin: 0.5rem;
 }
 
-.success {
-  background-color: #00cc14 !important;
-  color: #f7f7f7 !important;
-}
-.error {
-  background-color: var(--red) !important;
-  color: #f7f7f7 !important;
-}
-.primary {
-    background-color: var(--blue) !important;
-    color: #f7f7f7 !important;
-}
-.secondary {
-  background-color: var(--col) !important;
-  color: #f7f7f7;
-}
-.secondary-alt {
-  background-color: #f7f7f7 !important;
-  color: var(--col);
-}
 .card {
   -webkit-border-radius: 0.375em !important;
   -moz-border-radius: 0.375em !important;
