@@ -35,16 +35,13 @@
 
         <style>
             /* Reset your Primary Color Palette */
-            .large {
-                font-size: 3em;
-            }
-            .medium {
-                font-size: 1.5em;
+            :root {
+                --col : #9f05ff;
             }
         </style>
     </head>
 
-<body class="">
+<body>
 
     <main id="app" class="m-auto pos-relative">
 
@@ -77,95 +74,208 @@
                 </tr>
 
                 <tr class="row jc-sb w-100 mxw-900 epic_list-item">
-                    <td class="w-100px lg_w-200px"> w-100 </td>
-                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" > width : 100% </td>
-                </tr>
-                <tr class="row jc-sb w-100 mxw-900 epic_list-item">
-                    <td class="w-100px lg_w-200px"> w-100px </td>
-                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" > width : 100px </td>
+                    <td class="w-100px lg_w-200px">  epic_to-back </td>
+                <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" > z-index: -1;
+                    </td>
                 </tr>
 
-                <tr class="row jc-sb w-100 mxw-900 epic_list-item">
-                    <td class="w-100px lg_w-200px"> btn  </td>
-                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" > 
-                        border-radius: 0.25rem;
-                        <br>
-                        padding: 0.25rem 0.5rem;
-                        <br>
-                        background-color: var(--gray)
-                    </td>
-                </tr>
-                <tr class="row jc-sb w-100 mxw-900 epic_list-item">
-                    <td class="w-100px lg_w-200px"> row </td>
-                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" >
-                        display: flex;
-                        <br>
-                        align-items: center;
-                        <br>
-                        flex-direction: row;
-                        <br>
-                        justify-content: center;
-                    </td>
-                </tr>
-                <tr class="row jc-sb w-100 mxw-900 epic_list-item">
-                    <td class="w-100px lg_w-200px"> col </td>
-                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" > 
-                        display: flex; <br>
-                        align-items: center; <br>
-                        flex-direction: column; <br>
-                        justify-content: center;
-                     </td>
-                </tr>
-
-                <tr class="row jc-sb w-100 mxw-900 epic_list-item">
-                    <td class="w-100px lg_w-200px"> container </td>
-                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" > 
-                        width: 100%; <br>
-                        padding: 0.375rem; <br>
-                        margin: 0.375rem auto;
-                    </td>
-                </tr>
-                <tr class="row jc-sb w-100 mxw-900 epic_list-item">
-                    <td class="w-100px lg_w-200px"> gap </td>
-                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" > 
-                        width: 100%; <br>
-                        display: block; <br>
-                        margin: 0.5rem;
-                    </td>
-                </tr>
-                <tr class="row jc-sb w-100 mxw-900 epic_list-item">
-                    <td class="w-100px lg_w-200px"> card </td>
-                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" > 
-                        -webkit-border-radius: 0.375em !important; <br>
-                        -moz-border-radius: 0.375em !important; <br>
-                        border-radius: 0.375em !important; <br>
-                        box-shadow: 0 0 2px var(--black) !important
-                    </td>
-                </tr>
-                <tr class="row jc-sb w-100 mxw-900 epic_list-item">
-                    <td class="w-100px lg_w-200px"> epic_to-back </td>
-                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" > z-index: -1; </td>
-                </tr>
                 <tr class="row jc-sb w-100 mxw-900 epic_list-item">
                     <td class="w-100px lg_w-200px"> epic_f-inherit </td>
-                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" > color : inherit; </td>
+                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" >         color : inherit;
+                    </td>
                 </tr>
+
                 <tr class="row jc-sb w-100 mxw-900 epic_list-item">
                     <td class="w-100px lg_w-200px"> epic_align-left </td>
-                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" > 
+                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" >
                         align-self: start; <br>
                         align-self: flex-start; <br>
                         align-self: self-start;
                     </td>
                 </tr>
+
                 <tr class="row jc-sb w-100 mxw-900 epic_list-item">
-                    <td class="w-100px lg_w-200px"> epic_align-right </td>
+                    <td class="w-100px lg_w-200px">epic_align-right </td>
                     <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" > 
                         align-self: end; <br>
                         align-self: flex-end; <br>
                         align-self: flex-start;
                     </td>
                 </tr>
+
+                <tr class="row jc-sb w-100 mxw-900 epic_list-item">
+                    <td class="w-100px lg_w-200px"> epic_header </td>
+                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" >
+                        width: 90%; <br>
+                        max-width: 1100px; <br>
+                        margin: 0 auto; <br>
+                        padding: 0.5rem; <br>
+                        display: flex; <br>
+                        flex-direction: row; <br>
+                        z-index: 100; <br>
+                        justify-content: space-between; 
+                    </td>
+                </tr>
+
+                <tr class="row jc-sb w-100 mxw-900 epic_list-item">
+                    <td class="w-100px lg_w-200px"> epic_logo </td>
+                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" > 
+                        font-weight: bold; <br>
+                        letter-spacing: 1.1px;
+                     </td>
+                </tr>
+
+                <tr class="row jc-sb w-100 mxw-900 epic_list-item">
+                    <td class="w-100px lg_w-200px"> epic_nav </td>
+                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" >
+                        display: none;  <br>
+                        align-items: center;  <br>
+                        flex-direction: column;  <br>
+                        justify-content: space-around;  <br>
+                
+                        position: absolute;  <br>
+                        padding: 0 1rem;  <br>
+                        top: 0;  <br> right: 0;  <br>
+                
+                        width: 100%;  <br>
+                        height: 300px;  <br>
+                
+                        font-size: 1.25rem;  <br>
+                
+                        background: var(--col);  <br>
+                    </td>
+                </tr>
+
+                <tr class="row jc-sb w-100 mxw-900 epic_list-item">
+                    <td class="w-100px lg_w-200px"> epic_nav + active </td>
+                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" >         
+                        display: flex;
+                    </td>
+                </tr>
+
+                <tr class="row jc-sb w-100 mxw-900 epic_list-item">
+                    <td class="w-100px lg_w-200px"> epic_close-nav </td>
+                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" > 
+                        content: 'Close';  <br>
+                        height: 50px;  <br> width: 150px;  <br>
+                        font-size: calc(1.275rem + 0.3vw);  <br>
+                        border-radius: 1px;  <br>
+                        color: var(--white);  <br>
+                        background-color: var(--black);  <br>
+                
+                        display: flex;  <br>
+                        align-items: center;  <br>
+                        flex-direction: row;  <br>
+                        justify-content: space-around;  <br>
+                    </td>
+                </tr>
+
+                <tr class="row jc-sb w-100 mxw-900 epic_list-item">
+                    <td class="w-100px lg_w-200px"> epic_menu-btn </td>
+                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" > 
+                        margin: 0 0.5rem; <br>
+                        padding-top: 0.25rem; <br>
+                        font-size: 1rem;
+                    </td>
+                </tr>
+
+                <tr class="row jc-sb w-100 mxw-900 epic_list-item">
+                    <td class="w-100px lg_w-200px"> epic_form </td>
+                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" >
+                        margin: 0.375rem auto;  <br>
+                        padding: 0.375rem 1.5rem;  <br>
+                        width: 100%;  <br> max-width: 300px;  <br>
+                
+                        color: var(--col);  <br>
+                        background-color: #f7f7f7;  <br>
+                
+                        border-radius: 0.375em;  <br> 
+                        -moz-border-radius: 0.375em;  <br>
+                        -webkit-border-radius: 0.375em;  <br>
+                      
+                        box-shadow: 0 0 2px var(--black);  <br>
+                
+                        display: flex;  <br>
+                        align-items: center;  <br>
+                        flex-direction: column;  <br>
+                        justify-content: center;  <br>
+                        align-items: flex-start;  <br>
+                    </td>
+                </tr>
+
+                <tr class="row jc-sb w-100 mxw-900 epic_list-item">
+                    <td class="w-100px lg_w-200px"> epic_form-title </td>
+                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" >
+                        margin-bottom: 0.75rem;
+                    </td>
+                </tr>
+
+                <tr class="row jc-sb w-100 mxw-900 epic_list-item">
+                    <td class="w-100px lg_w-200px"> epic_form-btn </td>
+                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" > 
+                        border-radius: 0.25rem; <br>
+                        padding: 0.25rem 0.5rem; <br>
+                        background-color: var(--gray); <br>
+                        
+                        background-color: var(--blue) !important; <br>
+                        color: #f7f7f7 !important;
+                    </td>
+                </tr>
+
+                <tr class="row jc-sb w-100 mxw-900 epic_list-item">
+                    <td class="w-100px lg_w-200px"> epic_form-actions </td>
+                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" >
+                        width: 90%; <br>
+                        display: block; <br>
+                        margin-top: 0.5rem; <br>
+                        margin-bottom: 0.5rem; <br>
+                        display: flex; <br>
+                        align-items: center; <br>
+                        flex-direction: row; <br>
+                        justify-content: space-between;
+                    </td>
+                </tr>
+
+                <tr class="row jc-sb w-100 mxw-900 epic_list-item">
+                    <td class="w-100px lg_w-200px"> epic_form-input </td>
+                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" >
+                        color: inherit;
+                    </td>
+                </tr>
+
+                <tr class="row jc-sb w-100 mxw-900 epic_list-item">
+                    <td class="w-100px lg_w-200px"> epic_list-fieldset </td>
+                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" >
+                        border-radius: 0.375em; 
+                        -moz-border-radius: 0.375em;
+                        -webkit-border-radius: 0.375em;
+                        border: 2px solid var(--col);
+                        margin-left: auto;
+                        margin-right: auto;
+                        padding: 0.375rem;
+                        width: 100%;
+                    </td>
+                </tr>
+
+                <tr class="row jc-sb w-100 mxw-900 epic_list-item">
+                    <td class="w-100px lg_w-200px"> epic_list-legend </td>
+                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" >
+                        padding-left: 0.25rem; <br>
+                        padding-right: 0.25rem; <br>
+                        font-size: 1.25rem;
+                    </td>
+                </tr>
+
+                <tr class="row jc-sb w-100 mxw-900 epic_list-item">
+                    <td class="w-100px lg_w-200px"> epic_list-item </td>
+                    <td class="w-80 ml-2 pl-1" style="border-left: 2px solid" >
+                        width: 100%;  <br> 
+                        padding: 0.375rem;  <br>
+                        margin: 0.375rem auto;  <br>
+                        border-bottom: 2px solid;
+                    </td>
+                </tr>
+
             </table>
         </section>
 

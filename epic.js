@@ -6,19 +6,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const h_calcs = document.querySelectorAll('.h-calc');
 
     const epic_demo_div = qs("#epic_demo_div");
-    const epic_demo_div_classlist = epic_demo_div.classList;
-    const epic_applied_classes = qs("#epic_applied_classes");
     let epic_toggle_class_title = () => qsa(".epic_toggle_class_title");
 
-    const menuBtn = qs(".epic_menu-btn");
-    const closeMenuBtn = qs(".epic_close-nav");
+    const menuBtn = qsa(".epic_menu-btn");
+    const closeMenuBtn = qsa(".epic_close-nav");
     const copyBtns = qsa(".epic_copy-btns");
 
     const observe_anim = qsa('.observe_anim');
 
     // Event Listeners
-    menuBtn.addEventListener("click", dropmenu);
-    closeMenuBtn.addEventListener("click", dropmenu);
+    menuBtn.forEach( (btns) => {
+        btns.addEventListener("click", dropmenu);
+    });
+    closeMenuBtn.forEach( (btns) => {
+        btns.addEventListener("click", dropmenu);
+    });
 
     // For Each Functions
     h_calcs.forEach(e => {
@@ -95,11 +97,11 @@ for (let i = 0; i < links.length; i++) {
     document.querySelector('head').append(linked);    
 }
 
-if (!document.querySelector('body').classList.contains('font-none')) {
-    let linked = document.createElement('link');
-    linked.setAttribute('type','text/css');
-    linked.setAttribute('rel','stylesheet');
-    linked.setAttribute('href', 'https://epic-styles.github.io/font.css' );
+// if (!document.querySelector('body').classList.contains('font-none')) {
+//     let linked = document.createElement('link');
+//     linked.setAttribute('type','text/css');
+//     linked.setAttribute('rel','stylesheet');
+//     linked.setAttribute('href', 'https://epic-styles.github.io/font.css' );
     
-    document.querySelector('head').append(linked);    
-}
+//     document.querySelector('head').append(linked);    
+// }
