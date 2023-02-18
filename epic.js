@@ -81,6 +81,7 @@ let links = [
     ['https://epic-styles.github.io/lg_classes.css'],
     ['https://epic-styles.github.io/md_classes.css'],
 
+    ['https://epic-styles.github.io/font.css'],
     ['https://epic-styles.github.io/icon.css'], 
     ['https://epic-styles.github.io/anim.css']
 ]
