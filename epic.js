@@ -31,9 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
     epic_toggle_class_title().forEach( (btns) => {
         btns.addEventListener('click', (e) => {
             epic_demo_div.classList.toggle(e.target.title);
-            getClassList();
-            e.target.classList.toggle('primary-alt');
-            e.target.classList.toggle('bg-grey');
+            e.target.classList.toggle('secondary-alt');
+            e.target.classList.toggle('btn');
         });
     });
 
@@ -49,19 +48,6 @@ document.addEventListener('DOMContentLoaded', () => {
         qs('.epic_nav').classList.toggle('active')
         qs('.epic_nav').classList.toggle('up-in')
     }
-
-    function getClassList() {
-        epic_applied_classes.innerHTML = '';
-        epic_demo_div_classlist.forEach(e => {
-            let btn = document.createElement('span');
-            btn.classList = "btn mr-1 mb-1 bdrs-pill epic_toggle_class_title";
-            btn.innerText = e;
-            btn.setAttribute('title', e)
-            epic_applied_classes.append(btn);
-        });
-    }
-
-    getClassList()
 
 
     // Js inbuilt Functions
@@ -102,6 +88,9 @@ let links = [
 ]
 
 for (let i = 0; i < links.length; i++) {
+    if ( i == 7) {
+        if (qs('body').classList.contains('font-none')) break;
+    }
     let linked = document.createElement('link');
     linked.setAttribute('type','text/css');
     linked.setAttribute('rel','stylesheet');

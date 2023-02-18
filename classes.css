@@ -189,6 +189,12 @@
 .o-0 { opacity: 0 }
 
 
+/* Scale */
+.scale-75 { transform: scale(75%) !important}
+.scale-50 { transform: scale(50%) !important}
+.scale-25 { transform: scale(25%) !important}
+
+
 /* Z-Index */
 
 
