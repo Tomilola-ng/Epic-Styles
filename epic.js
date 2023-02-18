@@ -81,20 +81,24 @@ let links = [
     ['https://epic-styles.github.io/lg_classes.css'],
     ['https://epic-styles.github.io/md_classes.css'],
 
-    ['https://epic-styles.github.io/font.css'],
     ['https://epic-styles.github.io/icon.css'], 
     ['https://epic-styles.github.io/anim.css']
-
 ]
 
 for (let i = 0; i < links.length; i++) {
-    if ( i == 7) {
-        if (qs('body').classList.contains('font-none')) break;
-    }
     let linked = document.createElement('link');
     linked.setAttribute('type','text/css');
     linked.setAttribute('rel','stylesheet');
     linked.setAttribute('href',links[i]);
+    
+    document.querySelector('head').append(linked);    
+}
+
+if (!document.querySelector('body').classList.contains('font-none')) {
+    let linked = document.createElement('link');
+    linked.setAttribute('type','text/css');
+    linked.setAttribute('rel','stylesheet');
+    linked.setAttribute('href', 'https://epic-styles.github.io/font.css' );
     
     document.querySelector('head').append(linked);    
 }
