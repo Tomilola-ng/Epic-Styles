@@ -190,6 +190,11 @@
 
 
 /* Scale */
+.scale-200 { transform: scale(200%) !important}
+.scale-175 { transform: scale(175%) !important}
+.scale-150 { transform: scale(150%) !important}
+.scale-125 { transform: scale(125%) !important}
+.scale-100 { transform: scale(100%) !important}
 .scale-75 { transform: scale(75%) !important}
 .scale-50 { transform: scale(50%) !important}
 .scale-25 { transform: scale(25%) !important}

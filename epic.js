@@ -5,22 +5,17 @@ document.addEventListener('DOMContentLoaded', () => {
     // Const variables
     const h_calcs = document.querySelectorAll('.h-calc');
 
-    const epic_demo_div = qs("#epic_demo_div");
-    let epic_toggle_class_title = () => qsa(".epic_toggle_class_title");
-
-    const menuBtn = qsa(".epic_menu-btn");
-    const closeMenuBtn = qsa(".epic_close-nav");
+    const menuBtn = qs(".epic_menu-btn");
+    const closeMenuBtn = qs(".epic_close-nav");
     const copyBtns = qsa(".epic_copy-btns");
 
     const observe_anim = qsa('.observe_anim');
 
     // Event Listeners
-    menuBtn.forEach( (btns) => {
-        btns.addEventListener("click", dropmenu);
-    });
-    closeMenuBtn.forEach( (btns) => {
-        btns.addEventListener("click", dropmenu);
-    });
+    if (menuBtn != null) {
+        menuBtn.addEventListener("click", dropmenu);
+        closeMenuBtn.addEventListener("click", dropmenu);
+    }
 
     // For Each Functions
     h_calcs.forEach(e => {
@@ -28,14 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
             let tall = e.offsetHeight;
             e.style.height = tall + 'px' 
         }
-    });
-
-    epic_toggle_class_title().forEach( (btns) => {
-        btns.addEventListener('click', (e) => {
-            epic_demo_div.classList.toggle(e.target.title);
-            e.target.classList.toggle('secondary-alt');
-            e.target.classList.toggle('btn');
-        });
     });
 
     copyBtns.forEach( (btns) => {
@@ -73,35 +60,29 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 })
 
+
 let links = [
 
-    ['https://epic-styles.github.io/epic.css'],
-    ['https://epic-styles.github.io/colour.css'],
-    ['https://epic-styles.github.io/sizes.css'],
-    ['https://epic-styles.github.io/style.css'],
-    ['https://epic-styles.github.io/classes.css'],
-    ['https://epic-styles.github.io/lg_classes.css'],
-    ['https://epic-styles.github.io/md_classes.css'],
+    ['Packages/epic.css'],
+    ['Packages/colour.css'],
+    ['Packages/sizes.css'],
+    ['Packages/style.css'],
+    ['Packages/classes.css'],
+    ['Packages/lg_classes.css'],
+    ['Packages/md_classes.css'],
 
-    ['https://epic-styles.github.io/font.css'],
-    ['https://epic-styles.github.io/icon.css'], 
-    ['https://epic-styles.github.io/anim.css']
+    ['Packages/font.css'],
+    ['Packages/icon.css'], 
+    ['Packages/anim.css']
+
 ]
 
 for (let i = 0; i < links.length; i++) {
     let linked = document.createElement('link');
-    linked.setAttribute('type','text/css');
-    linked.setAttribute('rel','stylesheet');
-    linked.setAttribute('href',links[i]);
+    linked.type = 'text/css';
+    linked.rel = 'stylesheet';
+    linked.media = 'all'
+    linked.href = links[i];
     
     document.querySelector('head').append(linked);    
 }
-
-// if (!document.querySelector('body').classList.contains('font-none')) {
-//     let linked = document.createElement('link');
-//     linked.setAttribute('type','text/css');
-//     linked.setAttribute('rel','stylesheet');
-//     linked.setAttribute('href', 'https://epic-styles.github.io/font.css' );
-    
-//     document.querySelector('head').append(linked);    
-// }

@@ -8,7 +8,7 @@
         color : inherit;
     }
 
-    .epic_align-left * { 
+    .epic_align-left * {
         align-self: start;
         align-self: flex-start;
         align-self: self-start;
@@ -27,7 +27,6 @@
         padding: 0.5rem;
         display: flex;
         flex-direction: row;
-        z-index: 100;
         justify-content: space-between;
     }
     .epic_logo {
