@@ -63,17 +63,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
 let links = [
 
-    ['Packages/epic.css'],
-    ['Packages/colour.css'],
-    ['Packages/sizes.css'],
-    ['Packages/style.css'],
-    ['Packages/classes.css'],
-    ['Packages/lg_classes.css'],
-    ['Packages/md_classes.css'],
+    ['https://epic-styles.github.io/epic.css'],
+    ['https://epic-styles.github.io/colour.css'],
+    ['https://epic-styles.github.io/sizes.css'],
+    ['https://epic-styles.github.io/style.css'],
+    ['https://epic-styles.github.io/classes.css'],
+    ['https://epic-styles.github.io/lg_classes.css'],
+    ['https://epic-styles.github.io/md_classes.css'],
+    ['https://epic-styles.github.io/sm_classes.css'],
 
-    ['Packages/font.css'],
-    ['Packages/icon.css'], 
-    ['Packages/anim.css']
+    ['https://epic-styles.github.io/font.css'],
+    ['https://epic-styles.github.io/icon.css'], 
+    ['https://epic-styles.github.io/anim.css']
 
 ]
 
