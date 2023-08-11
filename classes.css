@@ -163,6 +163,7 @@
 /* Misc */
 
 .o-hide { overflow: hidden !important}
+.o-scroll { overflow: scroll !important}
 .oy-scroll { overflow-y: scroll !important}
 .ox-scroll { overflow-x: scroll !important}
 

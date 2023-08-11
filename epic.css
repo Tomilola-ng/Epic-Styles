@@ -52,6 +52,7 @@
     }
     .epic_nav.active {
         display: flex;
+        z-index: 100;
     }
     .epic_close-nav {
         content: 'Close';
@@ -79,7 +80,7 @@
         width: 100%; max-width: 300px;
 
         color: var(--col);
-        background-color: #f7f7f7;
+        background-color: var(--white);
 
         border-radius: 0.375em; 
         -moz-border-radius: 0.375em;
@@ -102,7 +103,7 @@
         background-color: var(--gray);
         
         background-color: var(--blue) !important;
-        color: #f7f7f7 !important;
+        color: var(--white) !important;
     }
     .epic_form-actions {
         width: 90%;

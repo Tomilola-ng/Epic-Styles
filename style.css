@@ -11,7 +11,7 @@
 :root {
   /* colors */
   --col: #0d6efd;
-  --white: #fffceb;
+  --white: #fff;
   --black: #222222;
   --green: #07c938;
   --red: #dc0606;
@@ -47,7 +47,6 @@ html::-webkit-scrollbar-thumb {
 body {
   margin: 0;
   padding: 0;
-  background-color: hsl(0, 0%, 97%);
 }
 
 svg {

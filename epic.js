@@ -3,14 +3,17 @@ let qsa = (e) => document.querySelectorAll(e);
 
 document.addEventListener('DOMContentLoaded', () => {
     // Const variables
-    const h_calcs = document.querySelectorAll('.h-calc');
+    const h_calcs = qsa('.h-calc');
+
+    const epic_gradient = qsa('.epic_gradient');
+    const epic_bg = qsa('.epic_bg');
 
     const menuBtn = qs(".epic_menu-btn");
     const closeMenuBtn = qs(".epic_close-nav");
     const copyBtns = qsa(".epic_copy-btns");
 
     const observe_anim = qsa('.observe_anim');
-
+ 
     // Event Listeners
     if (menuBtn != null) {
         menuBtn.addEventListener("click", dropmenu);
@@ -31,6 +34,42 @@ document.addEventListener('DOMContentLoaded', () => {
             navigator.clipboard.writeText(e.target.title);
         });
     });
+
+    epic_gradient.forEach( (e) => {
+        let listr = e.classList;
+        for (let i = 0; i < listr.length; i++) {
+            const element = listr[i];
+            if (element == 'epic_gradient') {
+                let no1 = i +=1;
+
+                let col1 = listr[no1]
+                apply_gradient(e, col1)
+                break;
+            }
+        }
+    });
+
+    function apply_gradient(e, col) {
+        e.style.backgroundImage = `linear-gradient${col}`
+    }
+
+    epic_bg.forEach( (e) => {
+        let listr = e.classList;
+        for (let i = 0; i < listr.length; i++) {
+            const element = listr[i];
+            if (element == 'epic_bg') {
+                let no1 = i +=1;
+
+                let col1 = listr[no1]
+                apply_bg(e, col1)
+                break;
+            }
+        }
+    });
+
+    function apply_bg(e, col1) {
+        e.style.backgroundColor = `${col1}`
+    }
 
     // Custom Functions
     function dropmenu(e) {
@@ -83,7 +122,7 @@ for (let i = 0; i < links.length; i++) {
     linked.type = 'text/css';
     linked.rel = 'stylesheet';
     linked.media = 'all'
-    linked.href = links[i];
+    linked.href = links[i]
     
     document.querySelector('head').append(linked);    
 }

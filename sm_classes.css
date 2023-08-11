@@ -39,27 +39,6 @@
     display: block;
     margin: 0.5rem;
     }
-
-    .sm_success {
-    background-color: var(--green) !important;
-    color: #f7f7f7 !important;
-    }
-    .sm_error {
-    background-color: var(--red) !important;
-    color: #f7f7f7 !important;
-    }
-    .sm_primary {
-      background-color: var(--blue) !important;
-      color: #f7f7f7 !important;
-    }
-    .sm_secondary {
-    background-color: var(--col) !important;
-    color: #f7f7f7;
-    }
-    .sm_secondary-alt {
-    background-color: #f7f7f7 !important;
-    color: var(--col);
-    }
     .sm_card {
     -webkit-border-radius: 0.375em !important;
     -moz-border-radius: 0.375em !important;

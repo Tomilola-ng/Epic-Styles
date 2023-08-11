@@ -1,44 +1,44 @@
 /* Custom colors */
 .success {
     background-color: #00cc14 !important;
-    color: #f7f7f7 !important;
+    color: var(--white) !important;
 }
 .error {
 background-color: var(--red) !important;
-color: #f7f7f7 !important;
+color: var(--white) !important;
 }
 .warning {
 background-color: var(--yellow) !important;
-color: #f7f7f7 !important;
+color: var(--white) !important;
 }
 
 .success-alt {
 color: #00cc14 !important;
-background-color: #f7f7f7 !important;
+background-color: var(--white) !important;
 }
 .error-alt {
 background-color: var(--red) !important;
-background-color: #f7f7f7 !important;
+background-color: var(--white) !important;
 }
 .warning-alt {
 background-color: var(--yellow) !important;
-background-color: #f7f7f7 !important;
+background-color: var(--white) !important;
 }
 
 .primary {
     background-color: var(--blue) !important;
-    color: #f7f7f7 !important;
+    color: var(--white) !important;
 }
 .primary-alt {
-background-color: #f7f7f7 !important;
+background-color: var(--white) !important;
 color: var(--blue) !important;
 }
 .secondary {
 background-color: var(--col) !important;
-color: #f7f7f7 !important;
+color: var(--white) !important;
 }
 .secondary-alt {
-background-color: #f7f7f7 !important;
+background-color: var(--white) !important;
 color: var(--col) !important;
 }
 
@@ -148,48 +148,48 @@ color: var(--col) !important;
 
 .hover_success:hover {
     background-color: #00cc14 !important;
-    color: #f7f7f7 !important;
+    color: var(--white) !important;
 }
 .hover_error:hover {
 background-color: var(--red) !important;
-color: #f7f7f7 !important;
+color: var(--white) !important;
 }
 .hover_warning:hover {
 background-color: var(--yellow) !important;
-color: #f7f7f7 !important;
+color: var(--white) !important;
 }
 
 .hover_success-alt:hover {
 color: #00cc14 !important;
 box-shadow: 0 0 2px;
-background-color: #f7f7f7 !important;
+background-color: var(--white) !important;
 }
 .hover_error-alt:hover {
 background-color: var(--red) !important;
 box-shadow: 0 0 2px;
-background-color: #f7f7f7 !important;
+background-color: var(--white) !important;
 }
 .hover_warning-alt:hover {
 background-color: var(--yellow) !important;
 box-shadow: 0 0 2px;
-background-color: #f7f7f7 !important;
+background-color: var(--white) !important;
 }
 
 .hover_primary:hover {
     background-color: var(--blue) !important;
-    color: #f7f7f7 !important;
+    color: var(--white) !important;
 }
 .hover_primary-alt:hover {
-background-color: #f7f7f7 !important;
+background-color: var(--white) !important;
 box-shadow: 0 0 2px;
 color: var(--blue) !important;
 }
 .hover_secondary:hover {
 background-color: var(--col) !important;
-color: #f7f7f7 !important;
+color: var(--white) !important;
 }
 .hover_secondary-alt:hover {
-background-color: #f7f7f7 !important;
+background-color: var(--white) !important;
 box-shadow: 0 0 2px;
 color: var(--col) !important;
 }
